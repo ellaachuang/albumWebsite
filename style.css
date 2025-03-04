@@ -1,0 +1,33 @@
+body {
+    background-color: #000000;
+}
+
+h1 {
+    text-align: center;
+}
+
+  .container {
+    display: flex;
+    align-items: flex-start;
+}
+.image {
+    height: 40vw; /* Adjust as needed */
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.box {
+    width: 5vw;
+    height: 5vw;
+    margin-bottom: 10px;
+}
+
+.box:nth-child(1) { background-color: #3db5d6; }
+.box:nth-child(2) { background-color: #e9e949; }
+.box:nth-child(3) { background-color: #faad2d; }
+.box:nth-child(4) { background-color: #7d6a40; }
+.box:nth-child(5) { background-color: #e9de9d; }
